@@ -25,14 +25,14 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./frontend/*"]
+      "@/*": ["./*"]
     }
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "frontend/types/global.d.ts"
+    "types/global.d.ts"
   ],
   "exclude": [
     "node_modules"
